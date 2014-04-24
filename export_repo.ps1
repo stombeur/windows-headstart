@@ -1,0 +1,1 @@
+$src = "c:\src"; dir $src |%{ $dirname=$src+"\"+$_.name;git --work-tree $dirname --git-dir=$dirname/.git remote -v } |% { if ($_.Contains("push")) { add-content "repo.txt" $_.substring(7).split(' ')[0] }}

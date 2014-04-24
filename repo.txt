@@ -1,0 +1,6 @@
+https://github.com/jondot/cottonballs.git
+https://code.google.com/p/gcm/
+https://github.com/nomad/houston.git
+https://github.com/fschwiet/ManyConsole.git
+https://github.com/paaschpa/ordersDemo.git
+git@github.com:timvw/windows-headstart.git
